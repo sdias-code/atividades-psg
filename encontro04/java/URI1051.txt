@@ -1,0 +1,48 @@
+import java.io.IOException;
+import java.util.Locale;
+import java.util.Scanner;
+ 
+/**
+ * IMPORTANT: 
+ *      O nome da classe deve ser "Main" para que a sua solução execute
+ *      Class name must be "Main" for your solution to execute
+ *      El nombre de la clase debe ser "Main" para que su solución ejecutar
+ */
+public class Main {
+ 
+    public static void main(String[] args) throws IOException {
+ 
+       Locale.setDefault(Locale.US);
+
+		Scanner sc = new Scanner(System.in);
+
+		double salario = sc.nextDouble();
+
+		if(salario > 0 && salario <= 2000.00){  
+			System.out.println("Isento");
+			
+		} else if (salario >= 2000.01 && salario <= 3000.00){
+			double imposto1 = (salario - 2000.00) * 0.08;
+			System.out.println(String.format("R$ %.2f", imposto1));		     
+
+		} else if (salario >= 3000.01 && salario <= 4500.00){
+			double imposto1 = (3000.00 - 2000.01) * 0.08;
+			double imposto2 = (salario - 3000.01) * 0.18;
+			System.out.println(String.format("R$ %.2f", (imposto1 + imposto2)));		    
+
+		} else {
+			if (salario > 4500.00 ){
+				double imposto1 = (3000.00 - 2000.01) * 0.08;
+				double imposto2 = (4500.00 - 3000.01) * 0.18;
+				double imposto3 = (salario - 4500.00) * 0.28;
+				System.out.println(String.format("R$ %.2f", (imposto1 + imposto2 + imposto3)));		    
+			}
+
+		}
+
+		sc.close();
+
+ 
+    }
+ 
+}
