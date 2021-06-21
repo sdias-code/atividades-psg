@@ -1,0 +1,13 @@
+D:\2021 - Udemy\Introdução ao C# - Uma Abordagem Prática (Módulo I)\projetos\IntroAoCSharp\TiposEVariaveis\bin\Debug\netcoreapp3.1\TiposEVariaveis.exe
+D:\2021 - Udemy\Introdução ao C# - Uma Abordagem Prática (Módulo I)\projetos\IntroAoCSharp\TiposEVariaveis\bin\Debug\netcoreapp3.1\TiposEVariaveis.deps.json
+D:\2021 - Udemy\Introdução ao C# - Uma Abordagem Prática (Módulo I)\projetos\IntroAoCSharp\TiposEVariaveis\bin\Debug\netcoreapp3.1\TiposEVariaveis.runtimeconfig.json
+D:\2021 - Udemy\Introdução ao C# - Uma Abordagem Prática (Módulo I)\projetos\IntroAoCSharp\TiposEVariaveis\bin\Debug\netcoreapp3.1\TiposEVariaveis.runtimeconfig.dev.json
+D:\2021 - Udemy\Introdução ao C# - Uma Abordagem Prática (Módulo I)\projetos\IntroAoCSharp\TiposEVariaveis\bin\Debug\netcoreapp3.1\TiposEVariaveis.dll
+D:\2021 - Udemy\Introdução ao C# - Uma Abordagem Prática (Módulo I)\projetos\IntroAoCSharp\TiposEVariaveis\bin\Debug\netcoreapp3.1\TiposEVariaveis.pdb
+D:\2021 - Udemy\Introdução ao C# - Uma Abordagem Prática (Módulo I)\projetos\IntroAoCSharp\TiposEVariaveis\obj\Debug\netcoreapp3.1\TiposEVariaveis.csproj.AssemblyReference.cache
+D:\2021 - Udemy\Introdução ao C# - Uma Abordagem Prática (Módulo I)\projetos\IntroAoCSharp\TiposEVariaveis\obj\Debug\netcoreapp3.1\TiposEVariaveis.AssemblyInfoInputs.cache
+D:\2021 - Udemy\Introdução ao C# - Uma Abordagem Prática (Módulo I)\projetos\IntroAoCSharp\TiposEVariaveis\obj\Debug\netcoreapp3.1\TiposEVariaveis.AssemblyInfo.cs
+D:\2021 - Udemy\Introdução ao C# - Uma Abordagem Prática (Módulo I)\projetos\IntroAoCSharp\TiposEVariaveis\obj\Debug\netcoreapp3.1\TiposEVariaveis.csproj.CoreCompileInputs.cache
+D:\2021 - Udemy\Introdução ao C# - Uma Abordagem Prática (Módulo I)\projetos\IntroAoCSharp\TiposEVariaveis\obj\Debug\netcoreapp3.1\TiposEVariaveis.dll
+D:\2021 - Udemy\Introdução ao C# - Uma Abordagem Prática (Módulo I)\projetos\IntroAoCSharp\TiposEVariaveis\obj\Debug\netcoreapp3.1\TiposEVariaveis.pdb
+D:\2021 - Udemy\Introdução ao C# - Uma Abordagem Prática (Módulo I)\projetos\IntroAoCSharp\TiposEVariaveis\obj\Debug\netcoreapp3.1\TiposEVariaveis.genruntimeconfig.cache
