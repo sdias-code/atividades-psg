@@ -1,0 +1,36 @@
+import java.io.IOException;
+import java.util.Scanner;
+ 
+/**
+ * IMPORTANT: 
+ *      O nome da classe deve ser "Main" para que a sua solução execute
+ *      Class name must be "Main" for your solution to execute
+ *      El nombre de la clase debe ser "Main" para que su solución ejecutar
+ */
+public class Main {
+ 
+    public static void main(String[] args) throws IOException {
+ 
+		Scanner sc = new Scanner(System.in);
+		
+		int h1 = sc.nextInt();
+		int h2 = sc.nextInt();		
+		
+		int tempoDeJogo = 0;		 
+		
+		if((h1 > h2) && (((24 - h1) + h2) >= 1) && (((24 - h1) + h2) <= 24)) {
+			tempoDeJogo = (24 - h1) + h2;
+			System.out.printf("O JOGO DUROU %d HORA(S)%n", tempoDeJogo);			
+		} else if(h1 < h2 && (h2 - h1 >= 1) && (h2 - h1 <= 24) ) {
+			tempoDeJogo = h2 - h1;
+			System.out.printf("O JOGO DUROU %d HORA(S)%n", tempoDeJogo);
+		} else {
+			tempoDeJogo = 24;
+			System.out.printf("O JOGO DUROU %d HORA(S)%n", tempoDeJogo);
+		}
+		
+		sc.close();
+	
+    }
+ 
+}
