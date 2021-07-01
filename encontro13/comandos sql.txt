@@ -1,0 +1,95 @@
+*****************
+INSERT
+*****************
+USE [bdpsg]
+GO
+
+INSERT INTO [dbo].[Aluno]
+           ([nome])
+     VALUES
+           ('Paullo Quadros')
+GO
+
+*****************
+SELECT
+*****************
+USE [bdpsg]
+GO
+
+SELECT [alunoid]
+      ,[nome]
+  FROM [dbo].[Aluno]
+
+GO
+
+*****************
+INSERT
+*****************
+USE [bdpsg]
+GO
+
+INSERT INTO [dbo].[Curso]
+           ([descricao])
+     VALUES
+           ('Sistemas de Informação')
+GO
+
+*****************
+SELECT
+*****************
+USE [bdpsg]
+GO
+
+SELECT [cursoid]
+      ,[descricao]
+  FROM [dbo].[Curso]
+
+GO
+
+*****************
+INSERT
+*****************
+USE [bdpsg]
+GO
+
+INSERT INTO [dbo].[Professor]
+           ([nome])
+     VALUES
+           ('WMaldonado')
+GO
+
+*****************
+SELECT
+*****************
+USE [bdpsg]
+GO
+
+SELECT [professorid]
+      ,[nome]
+  FROM [dbo].[Professor]
+
+GO
+
+*****************
+JOIN
+*****************
+SELECT * FROM Listapresenca
+JOIN
+Aluno
+ON Aluno.alunoid = Listapresenca.alunoid
+
+*****************
+JOIN
+*****************
+SELECT
+Aluno.nome,
+Curso.descricao,
+Turma.descricao
+
+FROM Listapresenca
+JOIN
+Aluno ON Aluno.alunoid = Listapresenca.alunoid
+JOIN
+Curso ON Curso.cursoid = Listapresenca.listadepresencaid
+JOIN
+Turma ON Turma.turmaid = Listapresenca.turmaid
