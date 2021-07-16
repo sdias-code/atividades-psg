@@ -1,7 +1,6 @@
 package br.com.psg.main;
 
 import java.util.Scanner;
-
 import br.com.psg.calcularnotas.CalcularNotas;
 
 public class Main {
